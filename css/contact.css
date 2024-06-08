@@ -1,0 +1,175 @@
+/* Réalisé par ANNAD Walid - WM For Web Solution */
+/*===============================================*/
+
+/* Fichier CSS pour la page d'accueil : index.html*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* nav : sidebar :  ------------------------------------------------------- */
+
+#sidebar ul {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #c3ffd0;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    z-index: 0;
+}
+  
+#sidebar li a {
+    display: block;
+    color: #00b427;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+  
+#sidebar li a:hover:not(.active) {
+    background-color: #00b427;
+    color: white;
+}
+/*------------------------------------------------------------------------------------*/
+
+
+/* div : nav :  ----------------------------------------------------------------- */
+
+#navbar{
+    width: 80%;
+    height: 63px;
+    background-color: #00b427;
+    margin-left:20%;
+    color: white;
+}
+
+#navbar h2{
+    padding: 13px 0 0 20px;
+}
+
+#logo{
+    padding: 14px 70px;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: wheat; 
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+
+/* div : main ------------------------------------------------------------------------------*/
+
+#main{
+    margin-left:20%;
+    height:auto;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+/* section notre-menu ----------------------------------------------------------*/
+
+#section-adresse{
+    margin: 50px auto;
+    width: 80%;
+    padding: 10px 30px;
+}
+
+#section-adresse h1, #section-adresse p{
+    text-align: center;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+/* section detail ---------------------------------------------------------------*/
+
+#section-form h1, #section-form p{
+    text-align: center;
+}
+
+#section-form{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+#section-form form{
+    width: 60%;
+    margin: auto;
+    border: 2px inset #00b427;
+    padding: 9px;
+}
+
+.table-form{
+    width: 100%;
+}
+
+.td-label{
+    width: 20%;
+    padding: 10px 2px;
+}
+
+input, textarea{
+    padding: 5px 4px;
+    width: 90%;
+}
+
+#div-submit{
+    width: 100%;
+    display: block;
+}
+
+#envoyer{
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    background-color: #00b427;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+/* footer ------------------------------------------------------------------------------- */
+
+footer{
+    background-color: #c3ffd0;
+    padding: 50px 0  5px 0;
+    width: 100%;
+    height: auto;
+}
+
+footer h1{
+    text-align: center;
+}
+
+footer table{
+    margin: 20px auto;
+    width: 70%;
+}
+
+footer table tr td {
+    text-align: center;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
